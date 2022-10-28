@@ -30,9 +30,17 @@ header{
     justify-content: space-between;
 }
 
+/* ---------------------------------------------------- */
+@media screen and (max-width: 992px) {
+    #sidebar{
+        width: 100px;
+    }
+}
+/* ----------------------------------------------------- */
+
 main{
     height: 100%;
-    width: calc(100% - 200px);  
+    width: 100%; 
     background-color: #111126;
     /* DEBUG */
     /* overflow-y: auto; */
