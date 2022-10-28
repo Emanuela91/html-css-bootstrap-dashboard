@@ -9,7 +9,7 @@ body{
     height: 100vh;
 }
 
-#container{
+#container-1{
     height: calc(100% - 55px); 
     display: flex;
 }
@@ -147,11 +147,10 @@ header #icon i{
 }
 
 
-#sidebar i, a{
+#sidebar i{
     color: white;
     padding-right: 10px;
     padding-bottom: 5px;    
-    text-decoration: none;
 }
 
 #sidebar i{
@@ -161,7 +160,6 @@ header #icon i{
 #stats{
     margin-left: 5px;
 }
-
 
 #sidebar{
     display: flex;
@@ -186,3 +184,18 @@ header #icon i{
     background-color: #e5e5e5;
     transition: 2s;
 }
+/* ------------------------------------------------------ */
+
+
+/* MAIN */
+[class*="col"]{
+    /* DEBUG */
+    background-color: aqua;
+    border: 1px solid black;
+    min-height: 30px;
+}
+
+.container .top-main div{
+    background-color: #1b72e8;
+}
+
