@@ -195,7 +195,37 @@ header #icon i{
     min-height: 30px;
 }
 
+/* Top Main "blu" */
 .container .top-main div{
     background-color: #1b72e8;
 }
+
+.col-12.col-lg-8{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.col-12.col-lg-4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.fa-solid.fa-angles-right.text-white{
+    padding: 0 5px;
+}
+
+i.fa-solid.fa-plus.text-white{
+    padding: 8px;
+    border-radius: 50px;
+    font-size: 12px;
+    background-color: #165bba;
+}
+
+.col-12.col-lg-8 a.text-decoration-none.text-white{
+    padding: 0 5px;
+    padding-bottom: 2px;
+    background-color: #165bba;
+    border-radius: 10px;
+}
+
 
