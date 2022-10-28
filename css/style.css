@@ -41,9 +41,9 @@ header{
 main{
     height: 100%;
     width: 100%; 
-    background-color: #111126;
+    overflow-y: auto;
     /* DEBUG */
-    /* overflow-y: auto; */
+    /* background-color: #111126; */
 }
 
 
@@ -198,10 +198,11 @@ header #icon i{
 /* MAIN */
 [class*="col"]{
     /* DEBUG */
-    background-color: aqua;
-    border: 1px solid black;
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
     min-height: 30px;
 }
+
 
 /* Top Main "blu" */
 .container .top-main div{
@@ -237,3 +238,12 @@ i.fa-solid.fa-plus.text-white{
 }
 
 
+/* Tabella Prossime Classi */
+.table.table-sm.table-hover{
+    margin: 10px 0;
+}
+
+.fa-regular.fa-square-plus.float-end{
+    color: #165bba;
+    font-size: 25px;
+}
