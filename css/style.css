@@ -131,14 +131,26 @@ header #icon i{
 /* --------------------------------------------------- */
 
 /* SIDEBAR */
-#nav-sidebar-top, #nav-sidebar-bot{
+#nav-sidebar-top{
     padding: 20px 0;
 }
+
+#nav-sidebar-bot{
+    padding: 5px;
+    padding-right: 25px;
+    margin-bottom: 10px;
+}
+
+#nav-sidebar-top div{
+    padding: 5px 5px;
+    padding-right: 25px;
+}
+
 
 #sidebar i, a{
     color: white;
     padding-right: 10px;
-    padding-bottom: 10px;    
+    padding-bottom: 5px;    
     text-decoration: none;
 }
 
@@ -164,3 +176,13 @@ header #icon i{
 }
 
 /* ----------------------------------------------------- */
+/* HOVER SIDEBAR */
+#nav-sidebar-top div:hover{
+    background-color: #e5e5e5;
+    transition: 2s;
+}
+
+#nav-sidebar-bot:hover{
+    background-color: #e5e5e5;
+    transition: 2s;
+}
