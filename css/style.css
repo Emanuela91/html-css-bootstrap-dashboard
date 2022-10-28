@@ -5,8 +5,12 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+}
+
 #container{
-    height: 100vh; 
+    height: calc(100% - 55px); 
     display: flex;
 }
 
@@ -15,19 +19,15 @@ header{
     height: 55px;
     background-color: #f8f9fa;
     display: flex;
-    /* position: fixed; */
 }
 
 #sidebar{
     width: 200px;
     height: 100%;
-    background-color: black;
-    overflow-y: auto;
+    background-color: #051f34;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* DEBUG */
-    /* position: fixed; */
 }
 
 main{
@@ -96,7 +96,7 @@ header #icon i{
     color: #ff8f00;
 }
 
-/* ----------------------------------------------------- */
+/* ---------------------------------------------------- */
 /* HOVER SULLA CAMPANA */
 .dropdown {
     position: relative;
@@ -128,7 +128,39 @@ header #icon i{
 .dropdown-content span:hover {
    background-color: #e5e5e5 ;
 }
+/* --------------------------------------------------- */
+
+/* SIDEBAR */
+#nav-sidebar-top, #nav-sidebar-bot{
+    padding: 20px 0;
+}
+
+#sidebar i, a{
+    color: white;
+    padding-right: 10px;
+    padding-bottom: 10px;    
+    text-decoration: none;
+}
+
+#sidebar i{
+    font-size: 20px;
+}
+
+#stats{
+    margin-left: 5px;
+}
 
 
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#nav-sidebar-top{
+    display: flex;
+    flex-direction: column;
+}
 
+/* ----------------------------------------------------- */
