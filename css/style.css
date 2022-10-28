@@ -1,0 +1,134 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 100vh; 
+    display: flex;
+}
+
+header{
+    width: 100%;
+    height: 55px;
+    background-color: #f8f9fa;
+    display: flex;
+    /* position: fixed; */
+}
+
+#sidebar{
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* DEBUG */
+    /* position: fixed; */
+}
+
+main{
+    height: 100%;
+    width: calc(100% - 200px);  
+    background-color: #111126;
+    /* DEBUG */
+    /* overflow-y: auto; */
+}
+
+
+/* REGOLE HEADER */
+header #nav-header{
+    width: 100%;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    background-color: white;
+}
+
+/* Logo */
+header #logo{
+    display: flex;
+    align-items: center;
+}
+
+header #logo img{
+    width: 30px;
+}
+
+header #logo div{
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+/* Search  */
+header #search{
+    width: 50%;
+    position: relative;
+}
+
+#search input{
+    width: 100%;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+}
+
+#search i{
+    position: absolute;
+    left: 3px;
+    bottom: 6px;
+}
+
+/* Icone */
+header #icon i{
+    padding-left: 5px;
+    color: #5b5858;
+}
+
+#icon #bell{
+    display: inline;
+    color: #ff8f00;
+}
+
+/* ----------------------------------------------------- */
+/* HOVER SULLA CAMPANA */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 15px 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+    z-index: 20;
+}
+
+.dropdown-content span{
+    line-height: 30px;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    right: 0px;
+    top: 20px;
+}
+
+.dropdown-content span:hover {
+   background-color: #e5e5e5 ;
+}
+
+
+
+
