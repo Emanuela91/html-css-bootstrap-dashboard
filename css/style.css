@@ -305,6 +305,11 @@ i.fa-solid.fa-pencil{
 
 
 /* Todo */
+div.border{
+    border-radius: 5px;
+}
+
+
 div.form-check{
     padding: 0 30px;
 }
@@ -341,3 +346,17 @@ table.mn_faq tr:hover table.mn_faq tr.answer{
 } */
 /* ---------------------------------------- */
 
+
+/* Statistiche */
+div.stats{
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+ul.list-group{
+    margin: 10px;
+}
+
+.list-group-item img{
+    width: 100%;
+}
