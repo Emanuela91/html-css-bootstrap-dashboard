@@ -260,6 +260,10 @@ th.table-light{
     font-size: 20px;
 }
 
+button.btn{
+    float: right;
+}
+
 table th{
     padding: 0 10px;
 }
@@ -268,6 +272,29 @@ table th{
     color: #165bba;
     font-size: 25px;
 }
+
+/* ------------------------------------- */
+/* OFFCANVAS, NOME CLASSE E DATA */
+form{
+    line-height: 35px;
+}
+
+form button{
+    margin-top: 10px;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+button.save{
+    background-color: #2571f8;
+    color: white;
+}
+
+button.reset{
+    background-color: #fcc03e;
+}
+/* ---------------------------------------- */
 
 i.fa-solid.fa-code{
     background-color: #f16450;
@@ -333,6 +360,10 @@ div.form-check{
 
 
 /* F.A.Q. */
+div.accordion#accordionExample{
+    margin-top: 67px;
+}
+
 div.border-top.border-bottom.border-start.border-end{
     background-color: #f7f7f7;
 }

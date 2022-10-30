@@ -99,15 +99,37 @@
                                 <thead>
                                     <tr>
                                         <th colspan="4" class="table-light">Prossime Classi</th>
-                                        <th class="table-light"><i class="fa-regular fa-square-plus float-end"></i></th>
+                                        <th class="table-light"><button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-regular fa-square-plus float-end"></i></button>
+
+                                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                              <div class="offcanvas-header">
+                                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Aggiungi Classe</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                              </div>
+                                              <div class="offcanvas-body">
+                                                <form action="">
+                                                    <label for="classe">Nome</label>
+                                                    <br>
+                                                    <input type="text" id="classe" col-12  placeholder="Classe">
+                                                    <br>
+                                                    <label for="data">Data</label>
+                                                    <br>
+                                                    <input type="date" name="data" id="data">
+                                                    <br>
+                                                    <button type="submit" class="save">Save</button>
+                                                    <button type="reset" class="reset" value="reset">Reset</button>
+                                                </form>
+                                              </div>
+                                            </div>
+                                        </th>
                                     </tr>
-                                <tr>
-                                    <th scope="col">Nome</th>
-                                    <th scope="col">Data inizio</th>
-                                    <th scope="col">ROI</th>
-                                    <th scope="col">Stato</th>
-                                    <th scope="col">Azioni</th>
-                                </tr>
+                                    <tr>
+                                        <th scope="col">Nome</th>
+                                        <th scope="col">Data inizio</th>
+                                        <th scope="col">ROI</th>
+                                        <th scope="col">Stato</th>
+                                        <th scope="col">Azioni</th>
+                                    </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
@@ -269,7 +291,7 @@
         </main>
 
     </div>
-    
+
  
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
