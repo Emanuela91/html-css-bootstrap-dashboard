@@ -14,7 +14,7 @@
         <section id="nav-header">
             <div id="logo">
                 <img src="img/Logo.png" alt="Logo">
-                <div><strong>boolean</strong></div>
+                <div class="d-none d-lg-inline-block"><strong>boolean</strong></div>
             </div>
 
             <div id="search">
@@ -23,9 +23,11 @@
             </div>
 
             <div id="icon">
-                <i class="fa-solid fa-list"></i>
-                <i class="fa-solid fa-circle-question"></i>
-                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-solid fa-list d-none d-lg-inline-block"></i>
+                <i class="fa-solid fa-circle-question d-none d-lg-inline-block">
+                </i>
+                <i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline-block">
+                </i>
                 <div class="dropdown">
                     <i id="bell" class="fa-solid fa-bell"></i>
                     <div class="dropdown-content">
@@ -87,7 +89,7 @@
                     </div>
                 </div>
 
-                
+
                 <!-- Tabelle -->                
                 <div class="row">
 
@@ -168,7 +170,7 @@
                             </table>
 
                         <!-- FAQ  -->
-                            <table class="table table-sm mn_faq">
+                            <!-- <table class="table table-sm mn_faq">
                                 <thead>
                                     <tr>
                                         <th colspan="5" class="table-light">Prossime Classi</th>
@@ -183,11 +185,11 @@
                                 </tr>
 
 
-                                <!-- <tr class="answer">
+                                <tr class="answer">
                                     <td colspan="5">
                                         Clicca sul + in alto a destra della Tabella "Prossime Classi"
                                     </td>
-                                </tr> -->
+                                </tr>
 
 
                                 <tr>
@@ -201,12 +203,52 @@
                                     <td><i class="fa-solid fa-angle-down"></i></td>
                                 </tr>
                             </tbody>    
-                            </table>
+                            </table> -->
+                            
+                            <div class="accordion" id="accordionExample">
+                                <div class="border-top border-bottom border-start border-end"><h2>F.A.Q</h2></div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                      Come aggiungere una nuova classe?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      Clicca sul + in alto a destra della tabella "Prossime Classi".
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                      Come posso accedere alla informazioni del mio account?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      Clicca sull'icona della campanella.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      Posso usare questa Dashboard da mobile?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      Si, si può usa anche da dispositivo mobile.
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                         </div>
                         
                         <!-- To do -->
                         <div class="col-12 col-lg-4">
-                            <table class="table border rounded">
+                            <table class="table table-bordered">
                                 <thead>
                                     <tr>
                                         <th colspan="5" class="table-light">Todo </th>

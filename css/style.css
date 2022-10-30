@@ -79,6 +79,16 @@ header #search{
     position: relative;
 }
 
+
+/* -------------------------------------- */
+@media screen and (max-width: 992px) {
+    header #search{
+        width: 80%;
+    }
+}
+/* -------------------------------------- */
+
+
 #search input{
     width: 100%;
     padding: 5px 20px;
@@ -237,6 +247,9 @@ i.fa-solid.fa-plus.text-white{
     border-radius: 10px;
 }
 
+.col-12.col-lg-8 a.text-decoration-none.text-white:hover{
+    background-color: #0a3f8a;
+}
 
 /* Tabella Prossime Classi, Todo e F.A.Q. */
 .table.table-sm.table-hover{
@@ -245,6 +258,10 @@ i.fa-solid.fa-plus.text-white{
 
 th.table-light{
     font-size: 20px;
+}
+
+table th{
+    padding: 0 10px;
 }
 
 .fa-regular.fa-square-plus.float-end{
@@ -316,35 +333,13 @@ div.form-check{
 
 
 /* F.A.Q. */
-table.mn_faq{
-    margin-top: 25px;
+div.border-top.border-bottom.border-start.border-end{
+    background-color: #f7f7f7;
 }
 
-
-/* ----------------------------------------- */
-/* HOVER  */
-table.mn_faq tr:hover{
-    cursor: pointer;
-    background-color: hsla(199, 82%, 59%, 0.5);
-    border: 2px solid rgb(34, 84, 236, 0.5);
+div.border-top.border-bottom.border-start.border-end h2{
+    padding-left: 18px;
 }
-
-
-/* 
-table tbody{
-    position: relative;
-}
-
-table.mn_faq tr.answer{
-    display: none;
-
-}
-
-table.mn_faq tr:hover table.mn_faq tr.answer{
-    display: block;
-    position: absolute;
-} */
-/* ---------------------------------------- */
 
 
 /* Statistiche */
