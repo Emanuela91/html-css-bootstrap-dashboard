@@ -247,3 +247,54 @@ i.fa-solid.fa-plus.text-white{
     color: #165bba;
     font-size: 25px;
 }
+
+i.fa-solid.fa-code{
+    background-color: #f16450;
+    color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 3px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+span.done{
+    background-color: #198754;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+span.process{
+    background-color: #ffc107;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+span.failed{
+    background-color: #dc3545;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+i.fa-solid.fa-pencil, i.fa-solid.fa-trash{
+    padding: 5px;
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+}
+
+i.fa-solid.fa-pencil{
+    font-size: 15px;
+    margin-right: 5px;
+}
