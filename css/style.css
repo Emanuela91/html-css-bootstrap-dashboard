@@ -238,9 +238,13 @@ i.fa-solid.fa-plus.text-white{
 }
 
 
-/* Tabella Prossime Classi */
+/* Tabella Prossime Classi, Todo e F.A.Q. */
 .table.table-sm.table-hover{
     margin: 10px 0;
+}
+
+th.table-light{
+    font-size: 20px;
 }
 
 .fa-regular.fa-square-plus.float-end{
@@ -298,3 +302,42 @@ i.fa-solid.fa-pencil{
     font-size: 15px;
     margin-right: 5px;
 }
+
+
+/* Todo */
+div.form-check{
+    padding: 0 30px;
+}
+
+
+/* F.A.Q. */
+table.mn_faq{
+    margin-top: 25px;
+}
+
+
+/* ----------------------------------------- */
+/* HOVER  */
+table.mn_faq tr:hover{
+    cursor: pointer;
+    background-color: hsla(199, 82%, 59%, 0.5);
+    border: 2px solid rgb(34, 84, 236, 0.5);
+}
+
+
+/* 
+table tbody{
+    position: relative;
+}
+
+table.mn_faq tr.answer{
+    display: none;
+
+}
+
+table.mn_faq tr:hover table.mn_faq tr.answer{
+    display: block;
+    position: absolute;
+} */
+/* ---------------------------------------- */
+
